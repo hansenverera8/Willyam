@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Online Fashion, Elektronik & Mewah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: linear-gradient(90deg, #ff4081, #ff9800); color: white; padding: 1.5em; text-align: center; }
+    header h1 { margin: 0; font-size: 1.8em; }
+    header p { margin: 0.3em 0 0; font-size: 1em; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2em; padding: 1.5em; }
+    .product { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .product:hover { transform: translateY(-5px); box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+    .product img { width: 100%; height: auto; display: block; }
+    .product-details { padding: 1em; }
+    .product-details h2 { font-size: 1em; margin: 0 0 0.5em; color: #333; }
+    .price { font-weight: 600; color: #e91e63; }
+    .promo { background: #ff9800; color: white; padding: 0.2em 0.5em; font-size: 0.8em; border-radius: 4px; margin-left: 0.5em; }
+    footer { text-align: center; background: #222; color: #fff; padding: 1em; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛒 Toko Online - Fashion, Elektronik & Barang Mewah</h1>
+    <p>✅ Terverifikasi OJK & Kominfo | 🌍 Terpercaya di Seluruh Dunia | 100% Ori</p>
+  </header>
+
+  <section class="products">
+    <!-- Produk Fashion -->
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Sepatu+Adidas" alt="Sepatu Adidas" />
+      <div class="product-details">
+        <h2>Sepatu Adidas</h2>
+        <p class="price">Rp 1.200.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Sepatu+Nike" alt="Sepatu Nike" />
+      <div class="product-details">
+        <h2>Sepatu Nike</h2>
+        <p class="price">Rp 1.500.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Louis+Vuitton+Shirt" alt="Louis Vuitton Shirt" />
+      <div class="product-details">
+        <h2>Kemeja Louis Vuitton</h2>
+        <p class="price">Rp 8.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <!-- Produk Elektronik -->
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=iPhone+15+Pro" alt="iPhone 15 Pro" />
+      <div class="product-details">
+        <h2>Apple iPhone 15 Pro</h2>
+        <p class="price">Rp 22.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Samsung+Galaxy+S24" alt="Samsung Galaxy S24" />
+      <div class="product-details">
+        <h2>Samsung Galaxy S24</h2>
+        <p class="price">Rp 18.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Huawei+P60+Pro" alt="Huawei P60 Pro" />
+      <div class="product-details">
+        <h2>Huawei P60 Pro</h2>
+        <p class="price">Rp 15.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <!-- Produk Mewah -->
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Jam+Rolex" alt="Jam Rolex" />
+      <div class="product-details">
+        <h2>Jam Tangan Rolex</h2>
+        <p class="price">Rp 150.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Omega+Speedmaster" alt="Omega Speedmaster" />
+      <div class="product-details">
+        <h2>Omega Speedmaster</h2>
+        <p class="price">Rp 120.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Patek+Philippe" alt="Patek Philippe" />
+      <div class="product-details">
+        <h2>Patek Philippe Nautilus</h2>
+        <p class="price">Rp 1.200.000.000 <span class="promo">-20%</span></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Metode Pembayaran: BCA 0830252291 | GoPay 081387402037</p>
+  </footer>
+</body>
+</html>
